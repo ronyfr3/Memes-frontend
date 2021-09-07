@@ -223,8 +223,6 @@ body {
   width: 230px;
   height: 200px;
   border-radius: 5px;
-  -o-object-fit: cover;
-     object-fit: cover;
   -webkit-filter: brightness(0.8);
           filter: brightness(0.8);
 }
