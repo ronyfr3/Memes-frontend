@@ -1,0 +1,28 @@
+.memes {
+  @include flex(row, center, center);
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  margin-bottom: 4.5rem;
+  .memesWrapper {
+    margin: 15px;
+    box-shadow: $shadow1;
+    .info {
+      position: relative;
+      img {
+        width: 230px;
+        height: 200px;
+        border-radius: 5px;
+        object-fit: cover;
+        filter: brightness(0.8);
+      }
+      button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-50%, -50%);
+        @include btn;
+        border-radius: 50%;
+      }
+    }
+  }
+}

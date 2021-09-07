@@ -1,0 +1,17 @@
+.bar {
+  @include flex(column, center, center);
+  width: 90%;
+  form {
+    padding: 25px;
+    @include flex(column, center, center);
+    background-color: #0000001a;
+    border-radius: 15px;
+    box-shadow: $shadow2;
+    input[type="file"] {
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: $c10;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.buttonWrapper {
+  button {
+    @include btn;
+    margin-top: 1rem;
+  }
+}
